@@ -311,7 +311,7 @@ export default function WatchPage() {
                   loading={downloading}
                   text="Download"
                   selectOnBlur={false}
-                  value={undefined}
+                  value={false}
                   onChange={handleDownload}
                   options={[
                     {
@@ -357,7 +357,7 @@ export default function WatchPage() {
                   <Dropdown
                     button
                     text="Sync Editor"
-                    value={undefined}
+                    value={false}
                     selectOnBlur={false}
                     options={[
                       {
